@@ -3,6 +3,7 @@ package com.oscngl.spring.boot.aws.ci.cd.codepipeline.codebuild.elastic.beanstal
 import com.oscngl.spring.boot.aws.ci.cd.codepipeline.codebuild.elastic.beanstalk.model.User;
 import org.springframework.stereotype.Repository;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -19,7 +20,10 @@ public class UserRepository {
     ).collect(Collectors.toList());
 
     public List<User> findAll() {
-        return users;
+        return users
+                .stream()
+                .sorted(Comparator.comparing(User::getId).reversed())
+                .collect(Collectors.toList());
     }
 
     public User findById(Long id) {
