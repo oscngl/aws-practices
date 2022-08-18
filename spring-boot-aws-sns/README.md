@@ -1,2 +1,2 @@
-## Amazon SNS with Spring Boot Application
+## Amazon SNS (Simple Notification Service) with Spring Boot Application
 ### Subscribe and Send Email
