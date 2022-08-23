@@ -1,0 +1,7 @@
+aws:
+  credentials:
+    access-key:
+    secret-key:
+    service-endpoint: dynamodb.eu-central-1.amazonaws.com
+  region:
+    static: eu-central-1
