@@ -8,6 +8,9 @@
 ### - AWS SNS (Simple Notification Service)
 ### - AWS SQS (Simple Queue Service)
 ### - AWS ECS (Elastic Container Service)
+### - AWS ECR (Elastic Container Registery)
 ### - AWS Elastic Beanstalk
 ### - AWS Fargate
 ### - AWS RDS (Relational Database Service)
+### - AWS CloudWatch
+### - AWS IAM (Identity and Access Management)
