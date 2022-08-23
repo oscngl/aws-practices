@@ -11,6 +11,7 @@
 ### - AWS ECR (Elastic Container Registery)
 ### - AWS Elastic Beanstalk
 ### - AWS Fargate
+### - AWS DynamoDB
 ### - AWS RDS (Relational Database Service)
 ### - AWS CloudWatch
 ### - AWS IAM (Identity and Access Management)
