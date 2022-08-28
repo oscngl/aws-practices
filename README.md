@@ -7,6 +7,7 @@
 ### - AWS CodeBuild
 ### - AWS SNS (Simple Notification Service)
 ### - AWS SQS (Simple Queue Service)
+### - AWS SES (Simple Email Service)
 ### - AWS ECS (Elastic Container Service)
 ### - AWS ECR (Elastic Container Registery)
 ### - AWS Elastic Beanstalk
